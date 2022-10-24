@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-image: linear-gradient(#F65A83, #F8C4B4);
+}
+
+.div1 {
+	margin: 50px;
+}
+
+h1 {
+	color: white;
+	background-color: #FF8787;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;	
+}
+
+h2 {
+	color: white;
+	background-color: #FBA1A1;
+	padding: 26px;
+	margin-bottom: 50px;
+}
+
+#img1 {
+	margin-right:100px;
+}
+	
+#img1:hover { 
+	transition: transform 0.8s;
+	transform: scale(1.2);
+    cursor: pointer;
+}
+	
+#img2:hover { 
+	transition: transform 0.8s;
+	transform: scale(1.2);
+	cursor: pointer;
+}

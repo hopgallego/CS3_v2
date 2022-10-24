@@ -1,0 +1,24 @@
+* {
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	background-color: black;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;	
+}
+h2 {
+	color: white;
+	background-color: gray;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+#img1, #img2, #img3 {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 55px;
+}
+	

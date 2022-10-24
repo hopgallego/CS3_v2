@@ -1,0 +1,26 @@
+* {
+	margin: 0px;
+}
+
+.div1 {
+	margin: 50px;
+}
+
+h1 {
+	color: white;
+	background-color: black;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;	
+}
+
+h2 {
+	color: white;
+	background-color: gray;
+	padding: 26px;
+	margin-bottom: 50px;
+}
+
+#img1 {
+	margin-right:100px;
+}

@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<style>
+* {
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	font-family: comic sans ms;
+	padding: 13px;
+	background-color: #FF8787;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+	left: 0px;
+	z-index: 2;
+	filter: drop-shadow(0px 0px 0px 10px black);
+	animation: glow 1s ease-in-out infinite alternate;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FF69B4, 0 0 20px #E31C79, 0 0 30px #FF69B4, 0 0 40px #E31C79, 0 0 50px #E31C79, 0 0 60px #FF69B4, 0 0 70px #E31C79;
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px #E31C79, 0 0 60px #E31C79, 0 0 70px #E31C79, 0 0 80px #FF69B4;
+  }
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: lucida handwriting, cursive;  
+	top: 40px;
+	position: relative;
+	float: right;
+	clear: left;
+}
+
+h3 {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+}
+
+.topnav {
+	top: 122px;
+	right: 0px;
+	left: 0px;
+	background-color: #FBA1A1;
+	position: fixed;
+	z-index: 1;
+	overflow: hidden;
+	padding: 2px;
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 10px 150px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: white;
+}
+
+section {
+    font-size: 30px;
+	color: white;
+	float: left;
+	box-sizing: border-box;
+	border-radius: 10%;
+	border: 5px solid white;
+	padding: 20px;
+    margin-top: 230px;
+    margin-right: 30px;
+	margin-bottom: 40px;
+    margin-left: 0px;  
+	position: relative;
+	background-color: #ff6f91;
+	filter: drop-shadow(0px 0px 12px black);
+	transition: transform 0.8s;
+	transition-timing-function: ease;
+}
+
+.sec1 {
+	height: 290px;
+    width: 460px;
+	margin-top: 230px;
+    margin-right: 30px;
+	margin-bottom: 40px;
+    margin-left: 100px;  
+}
+
+.sec2 {
+	height: 370px;
+    width: 580px;
+	margin-top: 230px;
+    margin-right: 30px;
+	margin-bottom: 40px;
+    margin-left: 70px;  
+}
+
+section {
+	transition: transform 0.4s;
+	transition-timing-function: ease;
+}
+
+section:hover {
+	transform: scale(1.01);
+    filter: drop-shadow(0px 0px 16px black);
+}
+
+video {
+    border-radius: 10%;
+}
+
+ul {
+	list-style: none;
+	margin-top: 40px;
+}
+
+
+footer {
+	text-align: center;
+	clear: both;
+	padding: 2px;
+	background-color: #F582A7;
+	color: #FFECEF;
+	right: 0px;
+	bottom:0px;
+	left:0px;
+	z-index: 1;
+	border: 1px solid white;
+}
+
+</style>
+<html style="background-image: url('../images/bg.jpg');">
+  <head>
+	<title> Blueberry Smoothie</title>
+	<link rel="icon" href="../images/smoothie.png">
+  </head>
+  <h1 style="font-size:70px"><img style="width: 75px"src="../images/lollipop.png" alt="loli">SWEETaste</h1>
+  <body>
+		<div class="topnav">
+			<a class="active" href="#home"><img style="width: 30px" src="../images/home.png"></a>
+			<a href="#news"><img style="width: 30px" src="../images/news.png"></a>
+			<a href="#contact"><img style="width: 30px" src="../images/email.png"></a>
+			<a href="#about"><img style="width: 30px" src="../images/info.png"></a>
+		</div>
+		<section class="sec1">
+				<b> INGREDIENTS: </b>
+				<ul>
+					<li>1/2 cup - Blueberries</li>
+					<li>1 - Banana</li>
+					<li>1 cup - Milk or Substitute</li>
+					<li>1 teaspoon - Honey</li>
+				</ul>
+	    </section>
+		<section class= "sec2">
+			<video width="100%" controls>
+			<source src="../mmfiles/blueberry smoothie.mp4" type="video/mp4">
+		</section>
+	<footer>
+		<p style="font-size: 19px">"A recipe has no soul. You, as a cook, must bring the soul to a recipe."</p><br>
+		<p style="font-size: 15px">Copyright © HOPGallego 2022</p>
+		</footer>
+ </body>
+</html>

@@ -1,0 +1,133 @@
+* {
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	font-family: comic sans ms;
+	padding: 13px;
+	background-color: #FF8787;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+	left: 0px;
+	z-index: 2;
+	filter: drop-shadow(0px 0px 0px 10px black);
+	animation: glow 1s ease-in-out infinite alternate;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FF69B4, 0 0 20px #E31C79, 0 0 30px #FF69B4, 0 0 40px #E31C79, 0 0 50px #E31C79, 0 0 60px #FF69B4, 0 0 70px #E31C79;
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px #E31C79, 0 0 60px #E31C79, 0 0 70px #E31C79, 0 0 80px #FF69B4;
+  }
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: lucida handwriting, cursive;  
+	top: 40px;
+	position: relative;
+	float: right;
+	clear: left;
+}
+
+h3 {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+}
+
+.topnav {
+  top: 122px;
+  right: 0px;
+  left: 0px;
+  background-color: #FBA1A1;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  padding: 2px;
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 150px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+.div1, .div2 {
+	float: left;
+	box-sizing: border-box;
+	border-radius: 10%;
+	border: 5px solid white;
+	padding: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+	margin-bottom: 80px;
+    margin-left: 145px;  
+    height: 280px;
+    width: 430px;
+	position: relative;
+	background-color: #DE5D83;
+	filter: drop-shadow(0px 0px 12px black);
+	transition: transform 0.8s;
+	transition-timing-function: ease;
+}
+
+.div1, .div2 {
+	transition: transform 0.4s;
+	transition-timing-function: ease;
+}
+
+.div1:hover {
+	transform: scale(1.2);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+.div2:hover {
+	transform: scale(1.2);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+#img1, #img2 {
+	height: 160px;
+	width: 150px;
+	filter: drop-shadow(0px 0px 10px pink);
+	margin: 0px 0px 0px 0px; 
+	position: relative;
+}
+
+ul {
+	list-style: none;
+	margin-top: 180px;
+}
+
+footer {
+  position: sticky;
+  text-align: center;
+  clear: both;
+  padding: 2px;
+  background-color: #F582A7;
+  color: #FFECEF;
+  right: 0px;
+  bottom:0px;
+  left:0px;
+  z-index: 1;
+  border: 1px solid white;
+}

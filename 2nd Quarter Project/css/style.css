@@ -1,0 +1,201 @@
+* {
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	font-family: comic sans ms;
+	padding: 13px;
+	background-color: #FF8787;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+	left: 0px;
+	z-index: 2;
+	filter: drop-shadow(0px 0px 0px 10px black);
+	animation: glow 1s ease-in-out infinite alternate;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FF69B4, 0 0 20px #E31C79, 0 0 30px #FF69B4, 0 0 40px #E31C79, 0 0 50px #E31C79, 0 0 60px #FF69B4, 0 0 70px #E31C79;
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px #E31C79, 0 0 60px #E31C79, 0 0 70px #E31C79, 0 0 80px #FF69B4;
+  }
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: lucida handwriting, cursive;  
+	top: 40px;
+	position: relative;
+	float: right;
+	clear: left;
+}
+
+h3 {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+}
+
+.topnav {
+  top: 122px;
+  right: 0px;
+  left: 0px;
+  background-color: #FBA1A1;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  padding: 2px;
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 45px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+section {
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flxbcon {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+  	align-items: center;
+	margin-top: 245px;
+	margin-bottom: 86px;
+}
+	
+.div1 {
+	box-sizing: border-box;
+	border-radius: 10%;
+	border: 5px solid white;
+	padding: 50px;
+    height: 280px;
+    width: 430px;
+	background-color: #DE5D83;
+	filter: drop-shadow(0px 0px 12px black);
+	transition: transform 0.8s;
+	transition-timing-function: ease;
+}
+
+.div2 {
+	margin-left: 100px;
+	box-sizing: border-box;
+	border-radius: 10%;
+	border: 5px solid white;
+	padding: 50px;
+    height: 280px;
+    width: 430px;
+	background-color: #DE5D83;
+	filter: drop-shadow(0px 0px 12px black);
+	transition: transform 0.8s;
+	transition-timing-function: ease;
+}
+
+.div1, .div2 {
+	transition: transform 0.4s;
+	transition-timing-function: ease;
+}
+
+.div1:hover {
+	transform: scale(1.2);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+.div2:hover {
+	transform: scale(1.2);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+#img1, #img2 {
+	height: 160px;
+	width: 150px;
+	filter: drop-shadow(0px 0px 10px pink);
+	margin: 0px 0px 0px 0px; 
+	position: relative;
+}
+
+footer {
+	border: 2px solid #FF455B;
+	font-weight: bold;
+	padding: 5px;
+	color: #CD394B;
+	text-align: center;
+	font-size: 15px;
+}
+
+.smeds {
+	margin: 0px 0px 10px 0px;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
+
+#Facebook {
+	background: url('images/socmeds .png') no-repeat -10px -9px;
+	background-size: 100px 100px;
+	width: 31px;
+	height: 31px;
+	transition: transform 0.5s;
+	transition-timing-function: ease;
+}
+
+#Facebook:hover {
+	transform: rotate(360deg);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+#Twitter {
+	margin: 0px 10px 0px 10px;
+	background: url('images/socmeds .png') no-repeat -20px -56px;
+	background-size: 100px 100px;
+	width: 31px;
+	height: 31px;
+	transition: transform 0.5s;
+	transition-timing-function: ease;
+}
+
+#Twitter:hover {
+	transform: rotate(360deg);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+
+#Telegram {
+	background: url('images/socmeds .png') no-repeat -59px -25px;
+	background-size: 100px 100px;
+	width: 31px;
+	height: 31px;
+	transition: transform 0.5s;
+	transition-timing-function: ease;
+}
+
+#Telegram:hover {
+	transform: rotate(360deg);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+

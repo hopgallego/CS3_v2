@@ -1,0 +1,253 @@
+
+
+<!DOCTYPE html>
+<style>
+* {
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	font-family: comic sans ms;
+	padding: 13px;
+	background-color: #FF8787;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+	left: 0px;
+	z-index: 2;
+	filter: drop-shadow(0px 0px 0px 10px black);
+	animation: glow 1s ease-in-out infinite alternate;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FF69B4, 0 0 20px #E31C79, 0 0 30px #FF69B4, 0 0 40px #E31C79, 0 0 50px #E31C79, 0 0 60px #FF69B4, 0 0 70px #E31C79;
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px #E31C79, 0 0 60px #E31C79, 0 0 70px #E31C79, 0 0 80px #FF69B4;
+  }
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: lucida handwriting, cursive;  
+	top: 40px;
+	position: relative;
+	float: right;
+	clear: left;
+}
+
+h3 {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: black;
+}
+
+.topnav {
+	top: 122px;
+	right: 0px;
+	left: 0px;
+	background-color: #FBA1A1;
+	position: fixed;
+	z-index: 1;
+	overflow: hidden;
+	padding: 2px;
+	filter: drop-shadow(0px 0px 10px black);
+}
+
+.topnav a {
+	float: left;
+    color: white;
+	text-align: center;
+	padding: 10px 45px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: white;
+}
+
+.flxbcon {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+  	align-items: center;
+	margin-top: 200px;
+}
+	
+.divfood {
+	margin: 0px 100px 80px 0px;
+	float: left;
+	box-sizing: border-box;
+	border-radius: 10%;
+	border: 5px solid white;
+	padding: 50px;
+    margin-top: 50px;
+    margin-right: 30px;
+	margin-bottom: 40px;
+    margin-left: 30px;  
+    height: 250px;
+    width: 550px;
+	position: relative;
+	background-color: #E37383;
+	filter: drop-shadow(0px 0px 12px black);
+	transition: transform 0.8s;
+	transition-timing-function: ease;
+}
+
+.divfood {
+	transition: transform 0.4s;
+	transition-timing-function: ease;
+}
+
+.divfood:hover {
+	transform: scale(1.1);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+#img1, #img2 {
+	height: 160px;
+	width: 150px;
+	filter: drop-shadow(0px 0px 10px pink);
+	margin: 0px 0px 0px 0px; 
+	position: relative;
+}
+
+ul {
+	list-style: none;
+}
+
+footer {
+	border: 2px solid #FF455B;
+	font-weight: bold;
+	padding: 5px;
+	color: #CD394B;
+	text-align: center;
+	font-size: 15px;
+}
+
+.smeds {
+	margin: 0px 0px 10px 0px;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
+
+#Facebook {
+	background: url('../images/socmeds .png') no-repeat -10px -9px;
+	background-size: 100px 100px;
+	width: 31px;
+	height: 31px;
+	transition: transform 0.5s;
+	transition-timing-function: ease;
+}
+
+#Facebook:hover {
+	transform: rotate(360deg);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+#Twitter {
+	margin: 0px 10px 0px 10px;
+	background: url('../images/socmeds .png') no-repeat -20px -56px;
+	background-size: 100px 100px;
+	width: 31px;
+	height: 31px;
+	transition: transform 0.5s;
+	transition-timing-function: ease;
+}
+
+#Twitter:hover {
+	transform: rotate(360deg);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+
+#Telegram {
+	background: url('../images/socmeds .png') no-repeat -59px -25px;
+	background-size: 100px 100px;
+	width: 31px;
+	height: 31px;
+	transition: transform 0.5s;
+	transition-timing-function: ease;
+}
+
+#Telegram:hover {
+	transform: rotate(360deg);
+    filter: drop-shadow(0px 0px 10px white);
+    cursor: pointer;
+}
+
+
+</style>
+<html style="background-image: url('../images/bg.jpg');">
+  <head>
+	<title> Foodies </title>
+	<link rel="icon" href="../images/solid food.png">
+  </head>
+	<h1 style="font-size:70px"><img style="width: 75px"src="../images/lollipop.png" alt="loli">SWEETaste</h1>
+  <body>
+		<div class="topnav">
+			<a class="active" href="../index.html"><img style="width: 30px" src="../images/home.png"></a>
+			<a href="drinks.html"><img style="width: 30px" src="../images/drinkie.png"></a>
+			<a href="about.html"><img style="width: 30px" src="../images/info.png"></a>
+		</div>
+		<section class="flxbcon">
+			<ul>
+				<li>
+					<a href="macarons.html">
+						<div class="divfood">
+							<img id="img1" src="../images/macaron.png" alt="bubbtea">
+							<h2 style="font-size:25px">macarons</h2>
+						</div>
+					<a href="custard.html">
+						<div class="divfood">
+							<img id="img2" src="../images/pudding.png" alt="pudding">
+							<h2 style="font-size:25px"> caramel custard</h2>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="vanilla.html">
+						<div class="divfood">
+							<img id="img2" src="../images/cake.png" alt="burbury">
+							<h2 style="font-size:25px">vanilla cake</h2>
+						</div>
+					</a>
+					<a href="strawbcupcake.html">
+						<div class="divfood">
+							<img id="img2" src="../images/strawberry cupcake.png" alt="kapkik">
+							<h2 style="font-size:22px">strawberry cupcake</h2>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>
+	<footer>
+		<div class="socmedias">
+			<div class="smeds">
+				<a href="https://www.facebook.com/profile.php?id=100083021229392">
+					<div id="Facebook"></div></a>
+					
+				<a href="https://twitter.com/hahannahpinka?t=ds9-KeJzv6ZpJb_gR_z_ug&s=09">
+					<div id="Twitter"></div></a>
+					
+				<a href="https://t.me/haniiyii">
+					<div id="Telegram"></div></a>
+			</div>
+		</div>
+					
+		<article style="font-size: 15px">Copyright © Hannah Gallego</article>
+  </footer>
+</html>

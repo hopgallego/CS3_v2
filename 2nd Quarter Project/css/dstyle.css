@@ -119,8 +119,6 @@ ul {
 }
 
 footer {
-	display: table-row;
-    height: 0;
 	border: 2px solid #FF455B;
 	font-weight: bold;
 	padding: 5px;
